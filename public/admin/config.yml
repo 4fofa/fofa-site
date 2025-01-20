@@ -1,33 +1,65 @@
+---
 backend:
   name: git-gateway
   branch: main
-
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
-
+media_folder: static/images/uploads
+public_folder: /images/uploads
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: pages
+    label: Pages
     files:
-      - file: "content/_index.md"
-        label: "Home"
-        name: "home"
-      - file: "content/about.md"
-        label: "About"
-        name: "about"
-      - file: "content/resources.md"
-        label: "Resources"
-        name: "resources"
-      - file: "content/contact.md"
-        label: "Contact"
-        name: "contact"
-
-  - name: "posts"
-    label: "Blog Posts"
-    folder: "content/posts"
+      - file: content/_index.md
+        label: Home
+        name: home
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/about.md
+        label: About
+        name: about
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/resources.md
+        label: Resources
+        name: resources
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+      - file: content/contact.md
+        label: Contact
+        name: contact
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+  - name: posts
+    label: Blog Posts
+    folder: content/posts
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
