@@ -1,0 +1,39 @@
+baseURL = "https://4fofa.netlify.app/"
+languageCode = "en-us"
+title = "Forth on Fourth Avenue (FOFA)"
+theme = "ananke"
+
+[params]
+  author = "Forth on Fourth Avenue"
+  description = "Advocating for community improvements along Fourth Avenue."
+
+# Main menu
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "resources"
+  name = "Resources"
+  url = "/resources/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
