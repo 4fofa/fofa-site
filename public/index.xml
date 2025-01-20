@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to FOFA on Forth on Fourth Avenue (FOFA)</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to FOFA on Forth on Fourth Avenue (FOFA)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community Survey Results Are In!</title>
+      <link>http://localhost:1313/posts/example-post/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/example-post/</guid>
+      <description>&lt;p&gt;Thank you to everyone who participated in the 2024 Community Survey&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Forth on Fourth Avenue (FOFA) is a community-driven organization dedicated to improving the quality of life along Fourth Avenue&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Us</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:info@4fofa.org&#34;&gt;info@4fofa.org&lt;/a&gt;&lt;br&gt;&#xA;&lt;strong&gt;Instagram&lt;/strong&gt;: &lt;a href=&#34;https://instagram.com/fofa_brooklyn&#34;&gt;@fofa_brooklyn&lt;/a&gt;&lt;br&gt;&#xA;&lt;strong&gt;Address&lt;/strong&gt;: 123 Fourth Avenue, Brooklyn, NY 11215&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>&lt;h3 id=&#34;community-reports&#34;&gt;Community Reports&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;FOFA Community Survey Report 2024&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;FOFA Presentation at May 2024 Meeting&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#&#34;&gt;NYC Agency Presentations on Fourth Avenue Improvements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
