@@ -12,15 +12,30 @@ collections:
       - file: "content/_index.md"
         label: "Home"
         name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - file: "content/about.md"
         label: "About"
         name: "about"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - file: "content/resources.md"
         label: "Resources"
         name: "resources"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - file: "content/contact.md"
         label: "Contact"
         name: "contact"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "posts"
     label: "Blog Posts"
