@@ -69,7 +69,7 @@ collections:
         widget: datetime
       - label: Featured Image
         name: featured_image
-        widget: string
+        widget: image
       - label: Body
         name: body
         widget: markdown
