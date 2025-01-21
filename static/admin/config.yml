@@ -48,11 +48,18 @@ collections:
           - label: Body
             name: body
             widget: markdown
-  - name: news
+- name: news
     label: News Stories
-    folder: content/News
+    folder: "content/News"
     create: true
-    slug: "{{slug}}"
+    # Instead of just {{slug}}.md, we'll create a folder named {{slug}} with index.md inside it.
+    path: "{{slug}}/index"
+    # Store uploaded images in the same folder as the current post:
+    media_folder: ""
+    public_folder: ""
+    # Optionally ensure we parse front matter (should be default, but good to be explicit):
+    format: frontmatter
+
     fields:
       - label: Title
         name: title
