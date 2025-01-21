@@ -5,7 +5,7 @@
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Forth on Fourth Avenue (FOFA)</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,6 +14,13 @@
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/example-post/</guid>
       <description>&lt;p&gt;Thank you to everyone who participated in the 2024 Community Survey&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Earth Day Event with Park Slope Civic Council</title>
+      <link>http://localhost:1313/posts/earth-day/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/earth-day/</guid>
+      <description>&lt;p&gt;Join us at the Old Stone House - Saturday April 23 - 11am - 3pm&#xA;&lt;img src=&#34;http://localhost:1313/images/earth_day.webp&#34; alt=&#34;earth day poster&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
