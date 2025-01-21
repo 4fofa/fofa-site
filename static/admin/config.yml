@@ -48,7 +48,7 @@ collections:
           - label: Body
             name: body
             widget: markdown
-- name: news
+  - name: news
     label: News Stories
     folder: "content/News"
     create: true
