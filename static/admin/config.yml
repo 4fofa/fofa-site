@@ -1,7 +1,7 @@
 ---
 backend:
-  name: test-repo
-  #branch: main
+  name: git-gateway
+  branch: main
 media_folder: static/images/uploads
 public_folder: /images/uploads
 collections:
