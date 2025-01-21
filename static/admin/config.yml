@@ -48,9 +48,9 @@ collections:
           - label: Body
             name: body
             widget: markdown
-  - name: posts
-    label: Blog Posts
-    folder: content/posts
+  - name: news
+    label: News Stories
+    folder: content/News
     create: true
     slug: "{{slug}}"
     fields:
