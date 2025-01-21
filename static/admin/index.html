@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Content Manager</title>
     <!-- Include Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.15.75/dist/netlify-cms.js"></script><!-- Include Netlify Identity -->
+    <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
+    <!-- Include Netlify Identity -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
@@ -12,17 +13,16 @@
     <div id="nc-root"></div>
   
 
-    <script>
-        // Initialize Netlify Identity (optional for logging in)
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                    window.netlifyIdentity.on("login", () => {
-                        document.location.href = "/admin/";
-                    });
-                }
-            });
-        }
-    </script>
+   <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', (user) => {
+      if (!user) {
+        window.netlifyIdentity.on('login', () => {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
