@@ -59,7 +59,9 @@ collections:
     public_folder: ""
     # Optionally ensure we parse front matter (should be default, but good to be explicit):
     format: frontmatter
-
+    # Tell the CMS how to label each entry in the list
+    summary: "{{title}} – {{date}} - {{author}}"
+    
     fields:
       - label: Title
         name: title
