@@ -40,9 +40,11 @@ collections:
           - label: Body
             name: body
             widget: markdown
-      - file: content/resources.md
+      - file: content/resources/
         label: Resources
         name: resources
+        media_folder: "content/resources"
+        public_folder: "/resources"
         fields:
           - label: Title
             name: title
@@ -56,6 +58,10 @@ collections:
           - label: Body
             name: body
             widget: markdown
+          - label: Attachments
+            name: attachments
+            widget: file
+            multiple: true
       - file: content/contact.md
         label: Contact
         name: contact

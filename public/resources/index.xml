@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Forth on Fourth Avenue (FOFA)</title>
+    <link>http://localhost:1313/resources/</link>
+    <description>Recent content in Resources on Forth on Fourth Avenue (FOFA)</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/resources/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/resources/</guid>
+      <description>&lt;h3 id=&#34;community-reports&#34;&gt;Community Reports&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../files/FoFA-Survey-Presentation_5.13.24.pdf&#34;&gt;FOFA Community Survey Report 2024&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../files/Report-from-FOFA---4th-Ave-Community-Survey-2024-results_51324.pdf&#34;&gt;FOFA Presentation at May 2024 Meeting&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;NYC Agency Presentations on Fourth Avenue Improvements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

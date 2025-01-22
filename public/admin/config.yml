@@ -15,6 +15,12 @@ collections:
           - label: Title
             name: title
             widget: string
+          - label: Featured Image
+            name: featured_image
+            widget: image
+          - label: Description
+            name: description
+            widget: string
           - label: Body
             name: body
             widget: markdown
@@ -25,19 +31,37 @@ collections:
           - label: Title
             name: title
             widget: string
-          - label: Body
-            name: body
-            widget: markdown
-      - file: content/resources.md
-        label: Resources
-        name: resources
-        fields:
-          - label: Title
-            name: title
+          - label: Featured Image
+            name: featured_image
+            widget: image
+          - label: Description
+            name: description
             widget: string
           - label: Body
             name: body
             widget: markdown
+      - file: content/resources/
+        label: Resources
+        name: resources
+        media_folder: "content/resources"
+        public_folder: "/resources"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Featured Image
+            name: featured_image
+            widget: image
+          - label: Description
+            name: description
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+          - label: Attachments
+            name: attachments
+            widget: file
+            multiple: true
       - file: content/contact.md
         label: Contact
         name: contact
@@ -45,14 +69,29 @@ collections:
           - label: Title
             name: title
             widget: string
+          - label: Featured Image
+            name: featured_image
+            widget: image
+          - label: Description
+            name: description
+            widget: string
           - label: Body
             name: body
             widget: markdown
-  - name: posts
-    label: Blog Posts
-    folder: content/posts
+  - name: news
+    label: News Stories
+    folder: "content/News"
     create: true
-    slug: "{{slug}}"
+    # Instead of just {{slug}}.md, we'll create a folder named {{slug}} with index.md inside it.
+    path: "{{slug}}/index"
+    # Store uploaded images in the same folder as the current post:
+    media_folder: ""
+    public_folder: ""
+    # Optionally ensure we parse front matter (should be default, but good to be explicit):
+    format: frontmatter
+    # Tell the CMS how to label each entry in the list
+    summary: "{{date}}: {{title}} – {{author}} - "
+    
     fields:
       - label: Title
         name: title
@@ -60,6 +99,9 @@ collections:
       - label: Date
         name: date
         widget: datetime
+      - label: Featured Image
+        name: featured_image
+        widget: image
       - label: Body
         name: body
         widget: markdown
