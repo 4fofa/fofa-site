@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-featured_image: "/images/4thAve-green-median.png"
+featured_image: "/images/uploads/4thAve-green-median.png"
 featured_image_class: "cover bg-center"
 omit_header_text: False
 description: Forth on Fourth Avenue (FOFA) is a community-driven organization dedicated to improving the quality of life along Fourth Avenue. 
