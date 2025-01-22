@@ -18,6 +18,9 @@ collections:
           - label: Featured Image
             name: featured_image
             widget: image
+          - label: Description
+            name: description
+            widget: string
           - label: Body
             name: body
             widget: markdown
@@ -31,6 +34,9 @@ collections:
           - label: Featured Image
             name: featured_image
             widget: image
+          - label: Description
+            name: description
+            widget: string
           - label: Body
             name: body
             widget: markdown
@@ -44,6 +50,9 @@ collections:
           - label: Featured Image
             name: featured_image
             widget: image
+          - label: Description
+            name: description
+            widget: string
           - label: Body
             name: body
             widget: markdown
@@ -57,6 +66,9 @@ collections:
           - label: Featured Image
             name: featured_image
             widget: image
+          - label: Description
+            name: description
+            widget: string
           - label: Body
             name: body
             widget: markdown
