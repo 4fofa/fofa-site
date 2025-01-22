@@ -60,7 +60,7 @@ collections:
     # Optionally ensure we parse front matter (should be default, but good to be explicit):
     format: frontmatter
     # Tell the CMS how to label each entry in the list
-    summary: "{{title}} – {{date}} - {{author}}"
+    summary: "{{date}}: {{title}} – {{author}} - "
     
     fields:
       - label: Title
