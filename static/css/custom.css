@@ -14,3 +14,8 @@ p {
 .athelas {
   font-family: avenir, sans-serif; 
 }
+
+
+.signup-section button:hover {
+  background-color: #005bb5;
+}
