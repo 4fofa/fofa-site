@@ -40,28 +40,18 @@ collections:
           - label: Body
             name: body
             widget: markdown
-      - file: content/resources/
-        label: Resources
+      - file: content/resources/index.md
+        label: Resources Page
         name: resources
-        media_folder: "content/resources"
-        public_folder: "/resources"
+        media_folder: "static/files/resources"
+        public_folder: "/files/resources"
         fields:
           - label: Title
             name: title
             widget: string
-          - label: Featured Image
-            name: featured_image
-            widget: image
-          - label: Description
-            name: description
-            widget: string
           - label: Body
             name: body
             widget: markdown
-          - label: Attachments
-            name: attachments
-            widget: file
-            multiple: true
       - file: content/contact.md
         label: Contact
         name: contact
